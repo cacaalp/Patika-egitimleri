@@ -1,2 +1,2 @@
-# Projects_fun
+# Patika egitimleri
 Patika Kursundaki JavaScript egitimleri odevleri
