@@ -1,0 +1,28 @@
+Verilen diziyi bir Binary Search Tree (BST)
+
+1. İlk elemanı kök (root) olarak alalım. Kök değeri 7 olsun: 
+   - Dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+   - BST:
+                 7
+
+2. Kökün sağına ve soluna elemanları ekleyelim, BST şu şekilde olur:
+   - Dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+   - BST:
+                 7
+                / \
+               5   8
+
+3. Sırayla diğer elemanları BST'ye ekleyelim:
+   - Dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+   - BST:
+                 7
+                / \
+               5   8
+              / \   \
+             1   6   9
+              \   \
+               3   0
+                \
+                 2
+   
+Bu şekilde verilen diziyi bir Binary Search Tree'e dönüştürdük.

@@ -1,0 +1,27 @@
+
+1. [**22**, 27, 16, 2, 18, 6] (Başlangıç, ilk eleman zaten sıralı kabul edilir.)
+2. [**22, 27**, 16, 2, 18, 6] (27, 22'nin yanına eklenir.)
+3. [**16, 22, 27**, 2, 18, 6] (16, 22'nin yanına eklenir.)
+4. [**2, 16, 22, 27**, 18, 6] (2, 16'nın yanına eklenir.)
+5. [**2, 16, 18, 22, 27**, 6] (18, 27'nin yanına eklenir.)
+6. [**2, 6, 16, 18, 22, 27**] (6, 16'nın yanına eklenir.)
+
+Dizi Insertion Sort ile sıralandı.
+
+Big-O Gösterimi: Insertion Sort'un Big-O gösterimi O(n^2) dir, yani n elemanlı bir dizi için en kötü durumda n^2 adım gerektirir.
+
+Time Complexity - 18 sayısı hangi case'e girer?
+- Average Case: Aradığımız sayının ortada olması, bu durum ortalama bir durumdur. Algoritma, her iki yönde de elemanları karşılaştırarak çalıştığı için bu durum bu kategoriye girer.
+- Worst Case: Aradığımız sayının sonda olması, bu durumda her elemanın sona kadar kontrol edilmesi gerekeceği için en kötü durumdur.
+- Best Case: Aradığımız sayının dizinin en başında olması, bu durumda algoritma sadece birkaç karşılaştırma yapar ve en iyi durumdur.
+
+Dolayısıyla, 18 sayısı worst case'e girecektir çünkü en kötü durumda tüm elemanlar kontrol edilir.
+
+[7, 3, 5, 8, 2, 9, 4, 15, 6] dizisinin Selection Sort'a göre ilk 4 adımı:
+
+1. Adım: [**2**, 3, 5, 8, 7, 9, 4, 15, 6]
+2. Adım: [**2, 3**, 5, 8, 7, 9, 4, 15, 6]
+3. Adım: [**2, 3, 4**, 5, 7, 9, 8, 15, 6]
+4. Adım: [**2, 3, 4, 5**, 7, 9, 8, 15, 6]
+
+Bu dört adımda, her adımda dizinin sıralanmış kısmı bir eleman daha büyür.
